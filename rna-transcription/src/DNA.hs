@@ -1,7 +1,5 @@
 module DNA (toRNA) where
 
-import Data.Maybe (fromJust)
-
 transcode :: Char -> Maybe Char
 transcode 'G' = Just 'C'
 transcode 'C' = Just 'G'
